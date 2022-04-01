@@ -1,0 +1,64 @@
+.Head {
+  width: 100vw;
+  background: linear-gradient(#dad6d6, #ebebf3);
+}
+.Header {
+  display: flex;
+  margin: 0 auto;
+  height: 100px;
+  width: 1000px;
+  color: rgb(0, 0, 0);
+  &__Logo,
+  &__Menu {
+    margin: auto;
+  }
+  &__Logo,
+  &__Name {
+    color: black;
+    width: 220px;
+    text-align: center;
+    font-size: 19px;
+    cursor: pointer;
+  }
+  &__Name {
+    background-color: rgba(2, 2, 2, 0.8);
+    color: rgb(255, 255, 255);
+    height: 100px;
+    padding-top: 25px;
+    &:hover {
+      color: rgb(211, 198, 198);
+    }
+  }
+  &__Menu {
+    display: grid;
+    margin: auto 30px;
+    width: 560px;
+    grid-template:
+      "one two three four" auto /
+      auto auto auto auto;
+  }
+  &__ItemOne {
+    grid-area: one;
+  }
+  &__ItemTwo {
+    grid-area: two;
+  }
+  &__ItemThree {
+    grid-area: three;
+  }
+  &__ItemFour {
+    grid-area: four;
+  }
+  &__ItemOne,
+  &__ItemTwo,
+  &__ItemThree,
+  &__ItemFour {
+    font-size: 17px;
+    cursor: pointer;
+    &:hover,
+    &--active {
+      font-weight: 600;
+      text-decoration: underline;
+    }
+  }
+}
