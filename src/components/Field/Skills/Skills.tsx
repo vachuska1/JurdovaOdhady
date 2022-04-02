@@ -1,5 +1,5 @@
 import * as React from "react";
-import "./Skills.less";
+import "../General/General.less";
 
 export const Skills = () => {
   return (

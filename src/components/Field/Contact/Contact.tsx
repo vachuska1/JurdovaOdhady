@@ -1,5 +1,5 @@
 import * as React from "react";
-import "./Contact.less";
+import "../General/General.less";
 
 export const Contact = () => {
   return (

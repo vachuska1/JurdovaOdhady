@@ -1,5 +1,5 @@
 import * as React from "react";
-import "./Other.less";
+import "../General/General.less";
 
 export const Other = () => {
   return (

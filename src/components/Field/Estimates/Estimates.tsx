@@ -1,5 +1,5 @@
 import * as React from "react";
-import "./Estimates.less";
+import "../General/General.less";
 
 export const Estimates = () => {
   return (

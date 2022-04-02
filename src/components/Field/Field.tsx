@@ -9,7 +9,6 @@ import { Skills } from "./Skills/Skills";
 import { Estimates } from "./Estimates/Estimates";
 import { Other } from "./Other/Other";
 import { Contact } from "./Contact/Contact";
-import { Aboutme } from "./Aboutme/Aboutme";
 
 export const Field = () => {
   return (
@@ -25,7 +24,6 @@ export const Field = () => {
               <Route path="/Odhady" component={Estimates} />
               <Route path="/DalsiCinnost" component={Other} />
               <Route path="/Kontakt" component={Contact} />
-              <Route path="/OMne" component={Aboutme} />
             </Switch>
           </div>
         </div>
