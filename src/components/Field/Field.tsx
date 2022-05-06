@@ -22,12 +22,12 @@ export const Field = () => {
               <Route path="/" exact component={General} />
               <Route path="/Kvalifikace" component={Skills} />
               <Route path="/Odhady" component={Estimates} />
-              <Route path="/DalsiCinnost" component={Other} />
+              <Route path="/Cenik" component={Other} />
               <Route path="/Kontakt" component={Contact} />
             </Switch>
           </div>
+          <Ledge />
         </div>
-        <Ledge />
       </div>
     </BrowserRouter>
   );

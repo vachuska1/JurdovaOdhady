@@ -5,59 +5,37 @@ export const General = () => {
   return (
     <div className="General">
       <div className="General__Content General__Content__OneParag">
-        Oceňování nemovitostí
-        <li>
-          Prodáváte svou nemovitost vlastními silami bez realitní kanceláře?
-        </li>
-        <li>Hledáte odhadce nemovitostí?</li>
-        <li>Řešíte dědictví, dotace, prodej či chcete koupit nemovitost?</li>
-        <li>Zajímá Vás hodnota Vašeho majetku?</li>
-        <li>
-          Potřebujete stanovit tržní hodnotu svého rodinného domu, bytu či
-          pozemku?
-        </li>
+        Ing. Natálie Jurdová - Odhadce nemovitostí
+        <div className="General__Heading">Kdy mě budete potřebovat?</div>
+        <li>Chcete prodat Vaši nemovitost bez realitní kanceláře?</li>
+        <li>Řešíte dědictví, dotace, nebo chcete nějakou nemovitost koupit?</li>
+        <li>Zajímá Vás, jakou hodnotu má Váš majetek?</li>
       </div>
       <div className="General__Content General__Content__TwoParag">
-        V oboru odhadů nemovitostí Vám mohu poskytnout tyto služby:
+        <div className="General__Heading">
+          V oboru odhadů nemovitostí Vám mohu poskytnout tyto služby:
+        </div>
         <li>
           <u>
             <strong>Tržní odhad:</strong>
           </u>
         </li>
         <p>
-          <strong>Tržní hodnota</strong> je odhadnutá částka, za kterou by bylo
-          možné k datu ocenění majetek koupit nebo prodat v daném čase a místě.
-          Zkrátka za kolik by se byt, rodinný dům, pozemek a další nemovitosti
-          prodaly/koupily. Tento odhad nemovitosti se využívá při prodeji
-          <strong>
-            {" "}
-            bez realitní kanceláře, při žádosti o různé dotační tituly, při
-            dědickém řízení anebo jen při informativním odhadu nemovitosti pro
-            majitele dané nemovitosti.
-          </strong>
+          Díky odhadu ceny nemovitosti budete vědět, za jakou částku by bylo
+          možné k datu ocenění daný a v daném místě a čase majetek kopit nebo
+          prodat. Tržní odhad využijete při prodeji bez realitní kanceláře, při
+          žádostech o dotace, při dědickém řízení nebo pokud budete mít zájem
+          zjistit, jakou hodnotu má Vaše nemovitost.
         </p>
         <li>
           <u>
-            <strong>Směrná hodnota:</strong>
+            <strong>Stanovení zjištěné ceny</strong>
           </u>
         </li>
         <p>
-          Potřebujete vyplnit{" "}
-          <strong>daňové přiznání z nabytí nemovitých věcí?</strong> Nevíte si
-          rady? Vypočítám Vám směrnou hodnotu nemovitosti, na kterou{" "}
-          <strong> finanční úřad nepotřebuje znalecký posudek.</strong>
-        </p>
-        <li>
-          <u>
-            <strong>Znalecký posudek:</strong>
-          </u>
-        </li>
-        <p>
-          Spolu se soudními znalci pro Vás vypracujeme{" "}
-          <strong>
-            posudek ceny obvyklé (tj. tržní) i zjištěné (tj. administrativní)
-            pro jakýkoliv účel.
-          </strong>
+          Cenu zjištěnou budete potřebovat pro daň z převodu nemovitosti, daň
+          darovací, pro dědické řízení nebo například pro potřeby rozvodového
+          řízení.
         </p>
         <li>
           <u>
@@ -65,15 +43,13 @@ export const General = () => {
           </u>
         </li>
         <p>
-          Vlastníte nemovitost a nevíte, jak stanovit výši nájmu? V případě
-          potřeby pro{" "}
-          <strong>
-            Vás mohu vypočítat nájem daného objektu nebo výnosovou hodnotu spolu
-            s čistými příjmy za rok.
-          </strong>
+          Chcete začít pronajímat nemovitost a nevíte, jak vysoké nájemné
+          stanovit? Obraťte se na mě a vypočítám pro Vás výši nájemného daného
+          objektu. Samozřejmostí je také stanovení výnosové hodnoty dané
+          nemovitosti.
         </p>
       </div>
-      <div className="General__Content General__Content__ThreeParag">
+      {/* <div className="General__Content General__Content__ThreeParag">
         Příklady oceňovaných nemovitostí
         <p>
           <strong>Pozemky</strong>
@@ -103,7 +79,7 @@ export const General = () => {
         <li>Rybníky</li>
         <li>Garáže</li>
         <li>Inženýrské stavby</li>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -7,9 +7,6 @@ export const Ledge = () => {
       <div className="Ledge__Name">
         © Copyright <strong>VachuskaWeb.cz</strong>
       </div>
-      <div className="Ledge__Name">
-        by <strong>Aleš Vachuška</strong>
-      </div>
     </div>
   );
 };

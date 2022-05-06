@@ -9,7 +9,7 @@ export const Header = () => {
         <NavLink to="/" activeClassName="Header__Name--active">
           <div className="Header__Name">
             Ing. Natálie Jurdová <br />
-            Odhady nemovitostí
+            Odhadce nemovitostí
           </div>
         </NavLink>
         <div className="Header__Menu">
@@ -19,11 +19,8 @@ export const Header = () => {
           <NavLink to="/Odhady" activeClassName="Header__ItemTwo--active">
             <div className="Header__ItemTwo">Odhady nemovitostí</div>
           </NavLink>
-          <NavLink
-            to="/DalsiCinnost"
-            activeClassName="Header__ItemThree--active"
-          >
-            <div className="Header__ItemThree">Další činnost</div>
+          <NavLink to="/Cenik" activeClassName="Header__ItemThree--active">
+            <div className="Header__ItemThree">Ceník</div>
           </NavLink>
           <NavLink to="/Kontakt" activeClassName="Header__ItemFour--active">
             <div className="Header__ItemFour">Kontakt</div>

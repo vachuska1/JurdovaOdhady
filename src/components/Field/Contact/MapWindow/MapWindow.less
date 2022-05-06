@@ -1,0 +1,28 @@
+.mapCont {
+  width: 100%;
+  height: 500px;
+  &:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: 5000;
+  }
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+.popUp {
+  bottom: 10px !important;
+  .leaflet-popup-close-button {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 799px) {
+  .mapCont {
+    width: 100vw;
+    height: 250px;
+  }
+}
